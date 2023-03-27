@@ -23,9 +23,6 @@ export default class GetImagesService {
       this.allImages += images.hits.length;
       this.totalImages = images.totalHits;
       // const nextimages = await (this.page += 1);
-      console.log(images);
-      console.log(this.allImages);
-      console.log(this.totalImages);
 
       return images;
     } catch (error) {
